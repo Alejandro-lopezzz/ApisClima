@@ -42,3 +42,6 @@ Promise.race(urls.map(getWeatherData))
   .catch(err => {
     console.error('❌ Error:', err.message);
   });
+
+  // Comentario para probar push y pull request
+console.log("Prueba desde Visual Studio Code");
